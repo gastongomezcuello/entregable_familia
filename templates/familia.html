@@ -10,7 +10,7 @@
     <h1>Estos son los integrantes de mi familia</h1>
     
     <p> {% for familiar in familiares %} </p>
-    <p> Mi {{familiar.parentesco}} se llama {{familiar.nombre}},tiene {{familiar.edad}} y 
+    <p> Mi {{familiar.parentesco}} se llama {{familiar.nombre}}, tiene {{familiar.edad}} y 
         {% if familiar.mayor_de_edad == True %} <b> es mayor de edad </b> 
         {%else%} {% if familiar.mayor_de_edad == False %} <b> no es mayor de edad </b>
         {%endif%}
