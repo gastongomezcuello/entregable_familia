@@ -1,19 +1,25 @@
-*{
-    padding: auto;
-    background-color: aquamarine;
-    margin: auto;
+body{
+    margin: 0px;
+    background-color: #a3d47c ;
+}
+header{
+    padding: 0px;
+    margin: 0px;
+}
+nav ul{
+    display: inline;
 }
 
 h1{
     margin: auto;
-    color: red;
+    color: rgb(255, 255, 255);
 }
 
 p{
-    padding: 3px;
-    margin: 3px;
+    padding: 6px;
+    margin: 2px;
 }
 b{
-    padding: 3px;
-    margin: 3px;
+    padding: 2px;
+    margin: 2px;
 }
