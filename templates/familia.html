@@ -1,15 +1,17 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/familia_style.css" type="text/css" >
+    <link rel="stylesheet" type="text/css" href="{% static 'css/familia_style.css' %}">
+    <link rel="shorcut icon" type="image/x-icon" href="{% static 'ico/familia.ico' %}">
     <title>Mis Familiares</title>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container">
             <ul><a href="">Inicio</a></ul>
             <ul><a href="">Familia</a></ul>
             <ul><a href="">Agregar familiar</a></ul>

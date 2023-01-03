@@ -6,9 +6,17 @@ header{
     padding: 0px;
     margin: 0px;
 }
-nav ul{
-    display: inline;
+
+.container {
+    display:flex;
+    background-color: #73a45c;
 }
+
+nav ul{
+    display: flex;
+
+}
+
 
 h1{
     margin: auto;
